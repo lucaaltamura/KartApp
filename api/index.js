@@ -7,6 +7,10 @@ const port = process.env.PORT || 3000;
 
 app.use(express.json());
 
+app.get('/api/ping', (req, res) => {
+  res.send('API UP ✅');
+});
+
 app.get('/api/clienti', async (req, res) => {
   await poolConnect;
   try {
