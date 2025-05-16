@@ -3,8 +3,8 @@ Questa applicazione è stata sviluppata con l'intento di poter permettere la ges
 
 ## Architettura
 - FE: Flutter
-- BE: Node.js
-- DB: SQL Server
+- BE: Node.js (hostato su Azure)
+- DB: SQL Server (hostato su Azure)
 
 ## UI
 - Login
